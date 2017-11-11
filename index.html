@@ -36,7 +36,12 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-		
+		function inform()
+        {
+          var userinput = document.getElementById('entryinput').value;
+          alert('Daniel Kolov: ' + userinput);
+          document.getElementById('textoutput').innerHTML = userinput;
+        }
 	</script>
 </body>
 </html>
